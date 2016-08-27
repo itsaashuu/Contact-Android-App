@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.ashutosh.contacts.CircularImageView
+        android:id="@+id/singleLogIV"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/singlelogName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/singleLogIV"
+        android:layout_toEndOf="@+id/singleLogIV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/singlelogNumber"
+        android:layout_below="@+id/singlelogName"
+        android:layout_toRightOf="@+id/singleLogIV"
+        android:layout_toEndOf="@+id/singleLogIV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/singleLogType"
+        android:layout_alignTop="@+id/singlelogNumber"
+        android:layout_toRightOf="@+id/singlelogNumber"
+        android:layout_toEndOf="@+id/singlelogNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/singleLogTime"
+        android:layout_below="@+id/singlelogNumber"
+        android:layout_toRightOf="@+id/singleLogIV"
+        android:layout_toEndOf="@+id/singleLogIV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/SingleLogDuration"
+        android:layout_alignTop="@+id/singleLogType"
+        android:layout_toRightOf="@+id/singleLogType"
+        android:layout_toEndOf="@+id/singleLogType" />
+
+
+</RelativeLayout>

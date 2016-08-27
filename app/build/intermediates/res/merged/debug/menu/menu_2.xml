@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ashutosh.contacts.MainActivity">
+
+    <item
+        android:id="@+id/discard"
+        android:title="Discard Changes"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/save"
+        android:title="Save"
+        android:orderInCategory="100"
+        app:showAsAction="always"></item>
+</menu>

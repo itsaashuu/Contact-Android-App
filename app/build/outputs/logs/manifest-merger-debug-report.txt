@@ -1,0 +1,149 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:2:1-66:12
+	xmlns:android
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:5:22-66
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:6:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:8:22-63
+application
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:11:5-64:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:12:9-38
+	android:theme
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:17:9-40
+	android:largeHeap
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:15:9-33
+activity#com.example.ashutosh.contacts.MainActivity
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:18:9-33:20
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:25:27-74
+meta-data#android.app.default_searchable
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:29:13-31:54
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:30:17-62
+	android:value
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:31:17-51
+activity#com.example.ashutosh.contacts.Dialler
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:34:9-37:59
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:36:13-59
+	android:theme
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:35:13-36
+activity#com.example.ashutosh.contacts.AddRecords
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:38:9-41:59
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:40:13-63
+	android:theme
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:39:13-39
+activity#com.example.ashutosh.contacts.SingleContact
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:42:9-45:59
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:44:13-66
+	android:theme
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:43:13-42
+activity#com.example.ashutosh.contacts.Preference
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:46:9-48:43
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:48:13-40
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:47:13-39
+activity#com.example.ashutosh.contacts.SearchableResults
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:50:9-63:20
+	android:label
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:52:13-70
+	android:theme
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:51:13-46
+intent-filter#android.intent.action.SEARCH
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:55:13-57:29
+action#android.intent.action.SEARCH
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:56:17-71
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:56:25-68
+meta-data#android.app.searchable
+ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:59:13-61:54
+	android:resource
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:61:17-51
+	android:name
+		ADDED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml:60:17-54
+uses-sdk
+INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] /home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/AndroidManifest.xml

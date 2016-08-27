@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dialler">Dialler</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_records">AddRecords</string>
+    <string name="title_activity_single_contact">SingleContact</string>
+    <string name="title_activity_searchable_results">SearchableResults</string>
+
+</resources>

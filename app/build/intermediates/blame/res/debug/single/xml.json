@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/res/merged/debug/xml/searchable.xml",
+        "source": "/home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/home/ashutosh/AndroidStudioProjects/Contacts/app/build/intermediates/res/merged/debug/xml/settings.xml",
+        "source": "/home/ashutosh/AndroidStudioProjects/Contacts/app/src/main/res/xml/settings.xml"
+    }
+]

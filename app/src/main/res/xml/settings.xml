@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+ <PreferenceCategory
+     android:title="Basic">
+
+     <EditTextPreference
+         android:key="name"
+         android:title="Name"
+         android:hint="Enter your name">
+     </EditTextPreference>
+
+     <ListPreference
+         android:key="list_preferences"
+         android:title="Sort By"
+         android:dialogTitle="Sort By"
+         android:entries="@array/Sort"
+         android:entryValues="@array/SortValues">
+     </ListPreference>
+
+
+     <CheckBoxPreference
+         android:key="checkbox"
+         android:title="Show First Name"
+         android:defaultValue="true"></CheckBoxPreference>
+
+     <ListPreference
+         android:key="colors"
+         android:title="Choose Theme Color"
+         android:dialogTitle="Choose Color"
+         android:entries="@array/Colors"
+         android:entryValues="@array/ColorValues"
+         >
+
+     </ListPreference>
+
+ </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Speed Dial">
+        <EditTextPreference
+            android:key="0"
+            android:title="0" />
+        <EditTextPreference
+            android:key="1"
+            android:title="1" />
+        <EditTextPreference
+            android:key="2"
+            android:title="2" />
+        <EditTextPreference
+            android:key="3"
+            android:title="3" />
+        <EditTextPreference
+            android:key="4"
+            android:title="4" />
+        <EditTextPreference
+            android:key="5"
+            android:title="5" />
+        <EditTextPreference
+            android:key="6"
+            android:title="6" />
+        <EditTextPreference
+            android:key="7"
+            android:title="7" />
+        <EditTextPreference
+            android:key="8"
+            android:title="8" />
+        <EditTextPreference
+            android:key="9"
+            android:title="9" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

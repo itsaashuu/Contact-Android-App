@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ashutosh.contacts.AddRecords"
+    tools:showIn="@layout/activity_add_records">
+
+    <include
+        layout="@layout/tool_bar_2"
+        android:id="@+id/tool_bar_2"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        ></include>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pagerAdd"
+        android:layout_below="@+id/tool_bar_2">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addTitle"
+            android:background="@color/ColorPrimary"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"
+            android:elevation="30dp"></android.support.v4.view.PagerTitleStrip>
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>
